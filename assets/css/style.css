@@ -7,23 +7,25 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Updated header class to match header element in html 13.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Removed unnecessary header class.*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Again. Unnecessary header class.*/
 h1 .seo {
     color: #d9dcd6;
 }
-
+/*Updated header element from class 
+and updated old div into section element from html 15.
+Applies to css 29, 37, 41.*/
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,10 +42,6 @@ header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*Removed unnecessary header elements in 18 and 23. 
-Updated header in 23, 27, 35, 39 as it
-is no longer class in the html. Updated to
-match element in html 15. */
 
 a {
     color: #ffffff;
@@ -53,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-/*Updated to match renamed element in html 29.*/
+/*Updated to match renamed article element in html 29.*/
 article {
     height: 800px;
     width: 100%;
@@ -73,13 +71,15 @@ article {
     float: right;
     margin-left: 25px;
 }
-/*Updated old content class to match with new content element in html 31.*/
+/*Updated old content class to match with new content element in html 30.*/
 content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*Updated old benefits class to match with new content in html 54.*/
+/*Updated old benefits class to match with new content in html 53.
+Merged original properties from benefit-lead,brand,cost classes
+into main benefits element.*/
 benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,23 +89,9 @@ benefits {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -192,16 +178,16 @@ benefits {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Updated footers 184 and 191 as they no longer are
+a class in the index.
+Matched sequential h4 tag in index line 78.*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*Updated footers 191 and 198 as they no longer 
-a class in the index.
-Matched sequential h4 tag in index line 77.*/
+
 footer h4 {
     font-size: 20px;
 }
