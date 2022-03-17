@@ -53,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Updated to match renamed element in html 29.*/
 article {
     height: 800px;
     width: 100%;
@@ -62,7 +62,7 @@ article {
     background-size: cover;
     background-position: center;
 }
-/*Updated to match renamed element in html 29.*/
+
 
 .float-left {
     float: left;
@@ -73,14 +73,14 @@ article {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/*Updated old content class to match with new content element in html 31.*/
+content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/*Updated old benefits class to match with new content in html 54.*/
+benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -199,10 +199,9 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h4 {
-    font-size: 20px;
-}
 /*Updated footers 191 and 198 as they no longer 
 a class in the index.
 Matched sequential h4 tag in index line 77.*/
+footer h4 {
+    font-size: 20px;
+}
